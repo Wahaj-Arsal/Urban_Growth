@@ -3,7 +3,7 @@
 import React from "react";
 import { Component } from "react";
 
-import "./MyGarden.scss";
+// import "./MyGarden.scss";
 
 // import cabbage from "../../assets/images/cabbage";
 // import carrots from "../../assets/images/carrots";
@@ -36,24 +36,24 @@ export default class MyGarden extends Component {
           </div>
         </div>
         <div className="garden">
-          <h1 className="garden__title">My Garden</h1>
+          <h1 className="garden__title">Explore</h1>
         </div>
         <div className="garden__info">
-          <p className="garden__heading">Currently Growing</p>
+          <p className="garden__heading">Harvest what matters</p>
           <div className="garden__sort-container">
             <p className="garden__sort-text">Sort by</p>
             <img className="garden__sort-img" alt="sort button" src={filter} />
           </div>
         </div>
         <div className="garden-tile">
-          <div className="garden-tile__picture lettuce">
+          <div className="garden-tile__picture parsley">
             <div className="garden-tile__image "></div>
           </div>
           <div className="tile__information">
             <div className="tile__text">
-              <h3 className="tile__h3">Butter Lettuce</h3>
-              <p className="tile__p">Est. Harvest Date - March 30th, 2022</p>
-              <p className="tile__p">Happiness Level - 8.4</p>
+              <h3 className="tile__h3">Parsley</h3>
+              <p className="tile__p">Water Needed - Low</p>
+              <p className="tile__p">Co2 Reduction - Low</p>
             </div>
             <div className="tile__image">
               <img className="tile__arrow" src={arrow} />
@@ -61,14 +61,14 @@ export default class MyGarden extends Component {
           </div>
         </div>
         <div className="garden-tile">
-          <div className="garden-tile__picture cabbage">
+          <div className="garden-tile__picture strawberry">
             <div className="garden-tile__image "></div>
           </div>
           <div className="tile__information">
             <div className="tile__text">
               <h3 className="tile__h3">Cabbage</h3>
-              <p className="tile__p">Est. Harvest Date - April 14th, 2022</p>
-              <p className="tile__p">Happiness Level - 9.5</p>
+              <p className="tile__p">Water Needed - Low</p>
+              <p className="tile__p">Co2 Reduction - Low</p>
             </div>
             <div className="tile__image">
               <img className="tile__arrow" src={arrow} />
@@ -82,8 +82,8 @@ export default class MyGarden extends Component {
           <div className="tile__information">
             <div className="tile__text">
               <h3 className="tile__h3">Roma Tomatoes</h3>
-              <p className="tile__p">Est. Harvest Date - May 20th, 2022</p>
-              <p className="tile__p">Happiness Level - 9.8</p>
+              <p className="tile__p">Water Needed - Low</p>
+              <p className="tile__p">Co2 Reduction - Low</p>
             </div>
             <div className="tile__image">
               <img className="tile__arrow" src={arrow} />
@@ -97,8 +97,8 @@ export default class MyGarden extends Component {
           <div className="tile__information">
             <div className="tile__text">
               <h3 className="tile__h3">Bell Peppers</h3>
-              <p className="tile__p">Est. Harvest Date - May 20th, 2022</p>
-              <p className="tile__p">Happiness Level - 9.4</p>
+              <p className="tile__p">Water Needed - Low</p>
+              <p className="tile__p">Co2 Reduction - Low</p>
             </div>
             <div className="tile__image">
               <img className="tile__arrow" src={arrow} />
@@ -112,8 +112,8 @@ export default class MyGarden extends Component {
           <div className="tile__information">
             <div className="tile__text">
               <h3 className="tile__h3">Carrots</h3>
-              <p className="tile__p">Est. Harvest Date - June 22nd, 2022</p>
-              <p className="tile__p">Happiness Level - 8.4</p>
+              <p className="tile__p">Water Needed - Low</p>
+              <p className="tile__p">Co2 Reduction - Low</p>
             </div>
             <div className="tile__image">
               <img className="tile__arrow" src={arrow} />

@@ -2,6 +2,71 @@
 
 @use "../../styles/app.scss" as *;
 
+.garden-container {
+  margin: 0 0 80px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.garden-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  &__back-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(65, 16, 16, 0.25);
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem 0 0;
+  }
+  &__back {
+  }
+  &__logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border-radius: 50%;
+    // background-color: #ffffff;
+    // box-shadow: 0px 0px 8px rgba(65, 16, 16, 0.25);
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem 0 0;
+  }
+  &__logo {
+  }
+}
+
+.garden {
+  padding: 1rem 1rem 0.5rem 1rem;
+  &__title {
+  }
+  &__info {
+    padding: 0.5rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__heading {
+    margin: 0;
+    // font-weight: 700;
+  }
+  &__sort-container {
+    display: flex;
+    flex-direction: row;
+  }
+  &__sort-text {
+    padding: 0 0.5rem 0 0;
+  }
+  &__sort-img {
+  }
+}
+
 .garden-tile {
   display: flex;
   flex-direction: column;
@@ -90,6 +155,14 @@
   background-position-y: center;
   background-position-x: center;
 }
+.carrots {
+  background-image: url("../../assets/images/carrots.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: left;
+}
+
 .carrots {
   background-image: url("../../assets/images/carrots.png");
   background-repeat: no-repeat;
