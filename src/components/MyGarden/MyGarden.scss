@@ -1,0 +1,99 @@
+/** @format */
+
+@use "../../styles/app.scss" as *;
+
+.garden-tile {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+
+  &__picture {
+    width: 100%;
+    height: 5rem;
+    // border-radius: 16px;
+  }
+  &__image {
+    // border-radius: 16px;
+  }
+}
+
+.tile {
+  &__information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // height: 6rem;
+    // align-items: left;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    // text-align: left;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  &__h3 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  &__p {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(65, 16, 16, 0.25);
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: 0 1rem 0 0;
+  }
+  &__arrow {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.lettuce {
+  background-image: url("../../assets/images/lettuce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: center;
+}
+
+.cabbage {
+  background-image: url("../../assets/images/cabbage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+}
+.tomatoes {
+  background-image: url("../../assets/images/tomatoes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+}
+.chilli {
+  background-image: url("../../assets/images/chilli.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+}
+.carrots {
+  background-image: url("../../assets/images/carrots.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: left;
+}

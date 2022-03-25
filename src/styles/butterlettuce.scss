@@ -1,0 +1,81 @@
+.veg {
+  display: flex;
+  flex-direction: column;
+}
+.veg__stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.veg__title {
+  padding: 1rem;
+  font-size: 40px;
+}
+.veg__info-title {
+  padding: 0 1rem;
+  color: #888888;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+}
+.image__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 400px;
+  background-image: url("../assets/images/Subtract.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 0;
+}
+.information__image {
+  height: 250px;
+  width: 375px;
+  align-self: center;
+}
+.information__container {
+  display: flex;
+  flex-direction: column;
+}
+.information__title {
+  margin: 0;
+  font-weight: 600;
+  padding: 1rem;
+}
+.information__text {
+  padding: 1rem;
+}
+.consumption__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.consumption__element {
+  box-shadow: 0px 0.749108px 5.99287px rgba(104, 33, 33, 0.25);
+  border-radius: 50px 2px;
+  width: 130px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.consumption__title {
+  font-weight: 600;
+  padding: 0.25rem;
+}
+.consumption__info--yellow {
+  font-weight: 600;
+  color: #f2cb05;
+}
+.consumption__info--red {
+  font-weight: 600;
+  color: #dc3f3f;
+}
+.consumption__info {
+  font-weight: 600;
+  color: green;
+}
