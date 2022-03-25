@@ -66,7 +66,7 @@ export default class MyGarden extends Component {
           </div>
           <div className="tile__information">
             <div className="tile__text">
-              <h3 className="tile__h3">Cabbage</h3>
+              <h3 className="tile__h3">Strawberry</h3>
               <p className="tile__p">Water Needed - Low</p>
               <p className="tile__p">Co2 Reduction - Low</p>
             </div>
@@ -76,12 +76,12 @@ export default class MyGarden extends Component {
           </div>
         </div>
         <div className="garden-tile">
-          <div className="garden-tile__picture tomatoes">
+          <div className="garden-tile__picture potatoes">
             <div className="garden-tile__image "></div>
           </div>
           <div className="tile__information">
             <div className="tile__text">
-              <h3 className="tile__h3">Roma Tomatoes</h3>
+              <h3 className="tile__h3">Potatoes</h3>
               <p className="tile__p">Water Needed - Low</p>
               <p className="tile__p">Co2 Reduction - Low</p>
             </div>
@@ -91,12 +91,12 @@ export default class MyGarden extends Component {
           </div>
         </div>
         <div className="garden-tile">
-          <div className="garden-tile__picture chilli">
+          <div className="garden-tile__picture rosemary">
             <div className="garden-tile__image "></div>
           </div>
           <div className="tile__information">
             <div className="tile__text">
-              <h3 className="tile__h3">Bell Peppers</h3>
+              <h3 className="tile__h3">Rosemary</h3>
               <p className="tile__p">Water Needed - Low</p>
               <p className="tile__p">Co2 Reduction - Low</p>
             </div>
@@ -106,12 +106,27 @@ export default class MyGarden extends Component {
           </div>
         </div>
         <div className="garden-tile">
-          <div className="garden-tile__picture carrots">
+          <div className="garden-tile__picture garlic">
             <div className="garden-tile__image "></div>
           </div>
           <div className="tile__information">
             <div className="tile__text">
-              <h3 className="tile__h3">Carrots</h3>
+              <h3 className="tile__h3">Garlic</h3>
+              <p className="tile__p">Water Needed - Low</p>
+              <p className="tile__p">Co2 Reduction - Low</p>
+            </div>
+            <div className="tile__image">
+              <img className="tile__arrow" src={arrow} />
+            </div>
+          </div>
+        </div>
+        <div className="garden-tile">
+          <div className="garden-tile__picture beetroot">
+            <div className="garden-tile__image "></div>
+          </div>
+          <div className="tile__information">
+            <div className="tile__text">
+              <h3 className="tile__h3">Beetroot</h3>
               <p className="tile__p">Water Needed - Low</p>
               <p className="tile__p">Co2 Reduction - Low</p>
             </div>

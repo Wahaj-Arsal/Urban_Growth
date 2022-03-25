@@ -1,0 +1,125 @@
+/** @format */
+
+.color__green {
+  color: green;
+}
+
+/* NAVBAR */
+.navbar-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* Garden Stats */
+.home {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+.title {
+  padding: 0 1rem 1rem 1rem;
+  /* margin: 1rem; */
+  font-size: 34px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 35%;
+  background-color: #30936f;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  /* Button Shadow */
+
+  box-shadow: 0px 1px 8px rgba(104, 33, 33, 0.25);
+  border-radius: 20px;
+}
+
+.update__bar {
+  /* justify-content: left; */
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: lightgrey;
+  width: 75%;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.tile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  height: 10rem;
+}
+.tile__title {
+  padding: 0.5rem 0 0.25 0;
+}
+.tile__stats {
+  padding: 0.25rem 0;
+  font-size: 30px;
+  /* text-align: center; */
+}
+.tile__review {
+  padding: 0.25rem 0;
+}
+.graph {
+  padding: 1rem;
+}
+
+.graph__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.weekly {
+  padding: 1rem;
+  &__title {
+    padding: 0 0 1rem 0;
+  }
+  &__text {
+    font-weight: 700;
+  }
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  &__icon {
+    padding: 1rem;
+    // height: 25px;
+    // width: 24px;
+  }
+}
+
+.update-bar {
+  padding: 0.5rem 1rem;
+  background: #f4f4f4;
+  border-radius: 16px;
+  margin: 1rem;
+}

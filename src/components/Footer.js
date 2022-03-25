@@ -12,7 +12,7 @@ export default function Footer() {
     <nav className="navbar-container">
       <button type="button" className="navbar__button">
         <img src={discover} />
-        <h4 className="navbar__title">Discover</h4>
+        <h4 className="navbar__title">Explore</h4>
       </button>
       <button type="button" className="navbar__button">
         <img src={MyGarden} />
